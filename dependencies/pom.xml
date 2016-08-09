@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>br.com.leandrojacomelli</groupId>
+    <artifactId>mars-explorer-dependencies</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>Mars Explorer Dependencies</name>
+    <description>Mars Explorer</description>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>br.com.leandrojacomelli</groupId>
+                <artifactId>mars-explorer-commons</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+                <scope>compile</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>br.com.leandrojacomelli</groupId>
+                <artifactId>mars-explorer-contract</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+                <scope>compile</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>br.com.leandrojacomelli</groupId>
+                <artifactId>mars-explorer-query</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+                <scope>compile</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>br.com.leandrojacomelli</groupId>
+                <artifactId>mars-explorer-command</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+                <scope>compile</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>19.0</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>org.mapstruct</groupId>
+                <artifactId>mapstruct</artifactId>
+                <version>1.0.0.Final</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mapstruct</groupId>
+                <artifactId>mapstruct-jdk8</artifactId>
+                <version>1.0.0.Final</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mapstruct</groupId>
+                <artifactId>mapstruct-processor</artifactId>
+                <version>1.0.0.Final</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.4</version>
+                <scope>compile</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.bsc.maven</groupId>
+                <artifactId>maven-processor-plugin</artifactId>
+                <version>2.2.4</version>
+            </dependency>
+
+        </dependencies>
+
+    </dependencyManagement>
+
+
+</project>
